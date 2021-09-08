@@ -1,2 +1,2 @@
 # Python_NETACAD
-# Estudiando python, importando los paquetes, que encapsulan modulos.
+Implementacion de un import para paquetes, que encapsulan modulos.
