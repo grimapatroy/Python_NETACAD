@@ -1,0 +1,3 @@
+dinero = float(input("INTRODUSCA CUANTO DINERO DESEA DEPOSITAR: "))
+
+print("INTERES DEL PRIMER AÑO: " + str( round((dinero*0.03)+dinero,2)),"INTERES DEL SEGUNDO AÑO: "+ str( round( ((((dinero*0.03)+dinero)*0.03) + ((dinero*0.03)+dinero)),2) ) , "INTERES DEL TERCER AÑO: " + str(round( ( ((((dinero*0.03)+dinero)*0.03) + ((dinero*0.03)+dinero)) * 0.03)  +  ((((dinero*0.03)+dinero)*0.03) + ((dinero*0.03)+dinero)),2 )) , sep="\n" )
